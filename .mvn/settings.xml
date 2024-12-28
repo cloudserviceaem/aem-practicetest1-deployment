@@ -5,17 +5,5 @@
       <username>${env.GITHUB_ACTOR}</username>
       <password>${env.GITHUB_TOKEN}</password>
     </server>
-  </servers> 
-  <profiles>
-    <profile>
-      <id>github-packages</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        <altSnapshotDeploymentRepository>github-releases::default::https://maven.pkg.github.com/friendlymahi/my-github-packages</altSnapshotDeploymentRepository>
-        <altReleaseDeploymentRepository>github-releases::default::https://maven.pkg.github.com/friendlymahi/my-github-packages</altReleaseDeploymentRepository>
-      </properties>
-    </profile>
-  </profiles> 
+  </servers>
 </settings>
