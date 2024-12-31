@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.practice.test1</groupId>
         <artifactId>aem-practicetest1-deployment</artifactId>
-        <version>1.2.9-SNAPSHOT</version>
+        <version>1.2.10-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aem-practicetest1-deployment.core</artifactId>
